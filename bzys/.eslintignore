@@ -1,0 +1,7 @@
+/build/
+/config/
+/dist/
+/*.js
+src/assets/js/calendar/calendar.js
+src/assets/js/calendarlunar.js
+src/assets/js/stemsbranch.js

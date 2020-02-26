@@ -1,0 +1,63 @@
+@r: 50rem;
+// 头部、form区域的主要颜色（文字、背景）
+@header-color : #cd3639;
+@color-base : #e6e3d4;
+// 头部、form区域的边框颜色
+@color-border : #ef2c69;
+// 评论区背景颜色
+@color-comment : #fdf8f8;
+// 边框颜色
+@color-comment-border : #b11755;
+// 评论区标题
+@color-comment-title : #d81a56;
+// 评论区内容
+@color-comment-content : #3f3f3f;
+// 评论区内容虚线边框
+@color-comment-border : #b5655c;
+// 底部颜色
+@color-footer : #b31446;
+.dis-table {
+  display: table;
+}
+.dis-table > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.content-box {
+  padding: 17/@r 15/@r 15/@r 15/@r;
+  background-color: @color-base;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.border-radius(@px) {
+  border-radius: @px;
+  -webkit-border-radius: @px;
+  -moz-border-radius: @px;
+  -o-border-radius: @px;
+}
+.border-radius-tr(@px) {
+  border-radius: @px @px 0 0;
+  -webkit-border-radius: @px @px 0 0;
+  -moz-border-radius: @px @px 0 0;
+  -o-border-radius: @px @px 0 0;
+}
+.border-radius-bl(@px) {
+  border-radius: 0 0 @px @px;
+  -webkit-border-radius: 0 0 @px @px;
+  -moz-border-radius: 0 0 @px @px;
+  -o-border-radius: 0 0 @px @px;
+}
+
+.pt20 {
+  padding-top: 20/@r;
+}
+.pt40 {
+  padding-top: 40/@r;
+}
+.pr {
+  position: relative;
+}

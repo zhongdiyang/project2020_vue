@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>project2018</title>
+    <script type='text/javascript'>
+      (function () {
+        window.onresize = setFontSize;
+        setFontSize();
+
+        function setFontSize() {
+          var html = document.documentElement;
+          var hWidth = html.getBoundingClientRect().width;
+          if (hWidth > 750) hWidth = 750;
+          html.style.fontSize = hWidth / 15 + 'px';
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
